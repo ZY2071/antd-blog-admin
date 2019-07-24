@@ -1,0 +1,45 @@
+.normal {
+  margin-bottom: 20px;
+}
+.pageHeader{
+  padding: 25px;
+  display: flex;
+  height: 150px;
+  background-color: #fff;
+  p:nth-child(1){
+    margin-bottom: 12px;
+    color: rgba(0,0,0,.85);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+  }
+  p:nth-child(2){
+    color: rgba(0,0,0,.45);
+    line-height: 22px;
+    margin: 0;
+  }
+}
+
+.viewDataCard{
+  text-align: right;
+  padding: 0 25px;
+  position: relative;
+  div:nth-child(1){
+    margin-bottom: 4px;
+    color: rgba(0,0,0,.45);
+    font-size: 14px;
+  }
+  div:nth-child(2){
+    color: rgba(0,0,0,.85);
+    font-size: 24px;
+  }
+  &:nth-child(1)::after{
+    content: '';
+    position: absolute;
+    top: 8px;
+    right: 0;
+    height: 40px;
+    width: 1px;
+    background-color: #e8e8e8;
+  }
+}
